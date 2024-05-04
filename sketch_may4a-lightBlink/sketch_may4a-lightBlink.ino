@@ -15,15 +15,15 @@ void loop() {
   // put your main code here, to run repeatedly:
    for (int i = 0; i < arrLen ; i++){
      digitalWrite(pinSet[i],HIGH);
-     delay(200);
+     delay(100);
       digitalWrite(pinSet[arrLen-i],HIGH);
-      delay(200);
+      delay(100);
      }
 for (int i = 0; i < arrLen ; i++){
      digitalWrite(pinSet[i],LOW);
-     delay(200);
+     delay(100);
       digitalWrite(pinSet[arrLen-i],LOW);
-      delay(200);
+      delay(100);
      }
 
      //digitalWrite(pinSet)
