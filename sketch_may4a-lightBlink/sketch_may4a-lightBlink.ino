@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 void setup() {
   int pinSet[] = {12,27,25,32,13};
